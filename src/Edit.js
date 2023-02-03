@@ -106,7 +106,7 @@ function Edit() {
       >
         Cancel
       </button>
-      {data.name == "" ? (
+      {data.name === "" ? (
         <button onClick={handleAdd}>Add</button>
       ) : (
         <button onClick={handleUpdate}>Update</button>
